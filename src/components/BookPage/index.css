@@ -1,0 +1,171 @@
+.bookpage-container{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+}
+.bookpage-container-card{
+ width: 700px;
+ height: 630px;
+ padding: 0 50px;
+ border: 2px solid #8bc48c;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 15px 0;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 600;
+}
+.booking-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.title-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(90, 91, 92);
+    margin-bottom: 5px;
+}
+.last-name{
+    margin-top: 35px;
+}
+.name-title{
+    font-size: 14px;
+    color: rgb(149, 150, 150);
+}
+.input-element{
+    height: 35px;
+    width: 250px;
+    border-radius: 4px;
+    border: 2px solid #8bc48c;
+    outline: none;
+    padding: 7px;
+}
+.hr-line{
+    border-width: 2px;
+    border-color: #077809;
+}
+.servece-title{
+    font-size: 19px;
+}
+.select-serveces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.select-services-card{
+    display: flex;
+    flex-direction: column;
+}
+.check-box{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    color: #8bc48c;
+}
+.service-type{
+    font-size: 18px;
+    margin-left: 15px;
+    color: rgb(41, 42, 43);
+    font-family: 'AR One Sans', sans-serif;
+}
+.date-container{
+    margin-top: 20px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.bookpage-button{
+    height: 40px;
+    width: 110px;
+    border-radius: 4px;
+    background-color: rgb(71, 194, 108);
+    border: none;
+    color: hsl(60, 20%, 96%);
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .bookpage-container-card{
+        width: none;
+        height: 100%;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        margin-top: 0;
+       }
+       .booking-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .card-item{
+        margin-bottom: 0;
+        width: 90%;
+       }
+       .hr-line{
+        display: none;
+       }
+       .input-element{
+        height: 40px;
+        width: 100%;
+        border-radius: 4px;
+        outline: none;
+        padding: 7px;
+    }
+    .last-name{
+        margin-top: 15px;
+    }
+    .title-name{
+        margin-top: 15px;
+    }
+    .name-title{
+        font-size: 16px;
+        color: #212121;
+    }
+    .select-container{
+        width: 100%;
+        margin-top: 7px;
+    }
+    .select-serveces{
+        display: flex;
+        flex-direction: column;
+    }
+    .servece-title{
+        margin-left: 15px; 
+    }
+    .check-box{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        color: #8bc48c;
+    }
+    .service-type{
+        font-size: 19px;
+    }
+    .data-styl{
+        margin: 10px 40px;
+    }
+    .bookpage-button{
+        margin: 20px;
+    }
+    .check-box-card{
+        margin: 6px 0;
+        display: flex;
+        align-items: center;
+    }
+}
