@@ -65,14 +65,14 @@
     }
     .person-profile-img{
         height: 320px;
-        width: 340px;
+        width: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0;
     }
     .person-details{
         height: 100%;
-        width: 340px;
+        width: 100%;
         padding-bottom: 30px;
         margin-bottom: 20px;
         border-bottom-left-radius: 10px;
