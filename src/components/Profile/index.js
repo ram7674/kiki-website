@@ -109,7 +109,7 @@ const Profile = () => {
     <>
       <Header />
       {isToggle ? null : (
-        <div>        
+        <div className='profile-container'>        
           <h1 className='profile-title'>Pick Your Preferred Hair Artist</h1>
           <div className='profile-card'>
             {listData.map((item) => (
