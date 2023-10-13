@@ -106,7 +106,6 @@ const Profile = () => {
   };
 
   return (
-    
     <>
       <Header />
       {isToggle ? null : (
