@@ -1,12 +1,6 @@
-.profile-container{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .profile-title{
     color: rgb(3, 138, 9);
-    margin: 25px 0;
+    margin: 90px 0 20px 0;
     display: flex;
     justify-content: center;
     font-family: 'AR One Sans', sans-serif;
@@ -50,10 +44,6 @@
 
 
 @media (max-width: 767px) {
-    .profile-container{
-        height: 100%;
-        margin-top: 80px;
-    }
     .card1{
         margin: 0 0 30px 0;
     }

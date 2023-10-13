@@ -50,7 +50,8 @@
 
 @media screen and (max-width: 767px) {
     .profile-container{
-        margin-top: 30px;
+        height: 100%;
+        margin-top: 90px;
         display: flex;
         flex-direction: column;
         justify-content: center;

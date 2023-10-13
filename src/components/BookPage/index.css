@@ -1,7 +1,8 @@
 .bookpage-container{
-    height: 91vh;
+    height: 99vh;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 }
 .bookpage-container-card{
  width: 700px;
