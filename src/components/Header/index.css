@@ -34,6 +34,9 @@
     color: #6b6b6d;
     font-family: 'Gabarito', cursive;
 }
+.nav-links:hover{
+    color: #12a750;
+}
 .header-background-small{
     display: none;
 }
